@@ -6,20 +6,20 @@ function convertToBool(text, fault = 'true') {
 
 
 global.thumb = fs.readFileSync('./lib/bugs/venom.jpg')
-const BOTNAME = 'VAJIRA-MD|-WA-BOT™';
-const FOOTERNAME = '> ＶＡＪＩＲＡ -  ＭＤ - Ｖ4';
-global.owner = process.env.OWNER_NUMBER  || '94701992015' ;  // ADD YOUR NUMBER WITHOUT +
+const BOTNAME = '𝚃𝙰𝙺𝚇-𝙾𝙵𝙲™';
+const FOOTERNAME = '𝚃𝙰𝙺𝚇-𝙾𝙵𝙲';
+global.owner = process.env.OWNER_NUMBER  || '263785192250' ;  // ADD YOUR NUMBER WITHOUT +
     
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || 'youre session id' ,
+SESSION_ID: process.env.SESSION_ID || 'VAJIRA-MD=fIlmGb6R#BP_uhyIttO8uY3eLzUuCubyBicXvVj0c2HxbI-MqqK4' ,
 travaSend: process.env.TRAVA_SEND || '25' ,   
 MODERATORS : process.env.MODERATORS === undefined ? "94772801923,94787820101" : process.env.MODERATORS ,    
 MAX_SIZE: process.env.MAX_SIZE === undefined ? '1536': process.env.MAX_SIZE,/*add this in megabytes*/    
-OWNER_NAME: process.env.OWNER_NAME || 'VAJIRA' ,
+OWNER_NAME: process.env.OWNER_NAME || 'TAKUNDA',
 COMMAND_TYPE: process.env.COMMAND_TYPE || 'button' ,
-LOGO: process.env.LOGO || `https://telegra.ph/file/ab0ea6ad90e2eb98090d9.jpg` ,
+LOGO: process.env.LOGO || `https://telegra.ph/file/9c47ad1de078d42eee14e.jpg` ,
 POSTGRESQL_URL: process.env.POSTGRESQL_URL === undefined ? 'postgres://vajiratech_user:oSIFl2xmSojMZ0rkzdd0g0W6msuVTpNN@dpg-cpd7fjv109ks73e5gtig-a.frankfurt-postgres.render.com/vajiratech' : process.env.POSTGRESQL_URL,
-FOOTER: process.env.FOOTER || '‌👨‍💻 ＶＡＪＩＲＡ -  ＭＤ - Ｖ5 👨‍💻',    
+FOOTER: process.env.FOOTER || '‌𝚃𝙰𝙺𝚇-𝙾𝙵𝙲',    
 PREFIX: process.env.PREFIX || '.' ,
 LANG:  process.env.LANG || 'SI' ,
 ANTI_BAD: process.env.ANTI_BAD || false  ,
@@ -40,7 +40,7 @@ BOT_DETECT: process.env.BOT_DETECT === undefined ? 'false' : process.env.BOT_DET
 ANTI_BOT: process.env.ANTI_BOT || false  ,
 ANTI_CALL: process.env.ANTI_CALL || false  ,
 ALIVE: process.env.ALIVE || `default`,     
-AUTO_STATUS_READ:  process.env.AUTO_STATUS_READ  || false  ,    
+AUTO_STATUS_READ:  process.env.AUTO_STATUS_READ  || true  ,    
 AUTO_VOICE:  process.env.AUTO_VOICE  || false  ,
 AUTO_STICKER: process.env.AUTO_STICKER || false  ,
 WELCOME:  process.env.WELCOME  || false ,
